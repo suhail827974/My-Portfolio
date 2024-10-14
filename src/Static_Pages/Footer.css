@@ -1,0 +1,96 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: green;
+    padding: 10px;
+}
+
+.footer-all-links {
+    align-content: center;
+    padding: 5px;
+}
+
+.footer-mail-link img {
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.footer-linkedin-link img {
+    width: 25px;
+    margin-right: 30px;
+}
+
+.footer-github-link img {
+    width: 25px;
+    margin-right: 30px;
+    border-radius: 5px;
+
+}
+.footer-text {
+    color: white;
+}
+
+.footer-text .footer-h {
+    font-size: 80px;
+}
+
+.footer-text .footer-p {
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin:0;
+}
+.footer-link-text{
+    margin:0;
+    color:white;
+}
+.footer-link-text:hover{
+        color:rgb(0, 255, 60);
+}
+@media all and (max-width:650px) {
+    .footer-text .footer-h {
+        font-size: 60px;
+    }
+
+    .footer-text .footer-p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+@media all and (max-width:600px) {
+    .footer-container {
+       flex-wrap: wrap;
+    }
+}
+.footer-link-text{
+    font-size: 22px;
+}
+@media all and (max-width:325px) {
+    .footer-mail-link img {
+        margin-right: 10px;
+    }
+    .footer-linkedin-link img {
+        margin-right: 10px;
+    }
+    .footer-github-link img {
+        margin-right: 10px;
+    }
+    .footer-link-text{
+        font-size: 15px;
+    }
+}
+@media all and (max-width:240px) {
+    .footer-link-text{
+        font-size: 13px;
+    }
+    .footer-text .footer-h {
+        font-size: 40px;
+    }
+    .footer-text .footer-p {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+}                                                                                               
