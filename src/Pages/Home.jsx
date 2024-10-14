@@ -4,7 +4,8 @@ import TwitterIcon from '../assets/twitter-icon.png'
 import LinkedinIcon from '../assets/linked-in.png'
 import GithubIcon from '../assets/github-icon.jpg'
 import frontImage from '../assets/img.jpg'
-import resume from '../assets/Updated Resume.pdf'
+// import resume from '../assets/Updated Resume.pdf'
+import resume from '../assets/_Updated Resume.pdf'
 import WhyMe from '../Static_Pages/WhyMe'
 import MoreAboutMe from '../Static_Pages/MoreAboutMe'
 import Skills from '../Static_Pages/Skills'
@@ -14,7 +15,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
+        <div className='main-home-container'>
             <Navbar />
             <div className='home-container' >
                 <div className='home-text-container'>
@@ -26,7 +27,7 @@ const Home = () => {
                             Full Stack developer
                         </p>
                         <div className='home-profile-description'>
-                            <p >
+                            <p className='home-para'>
                                 This is my Portfolio website to show my details and works.
                                 As a skilled Web developer, I am dedicated to turning
                                 ideas into innovative web applications. Also i can provide a
@@ -54,7 +55,7 @@ const Home = () => {
                         </NavLink>
                     </div>
 
-                    <div style={{position:"relative",}}>
+                    <div className='home-link-icon-btn-container' style={{position:"relative",}}>
                         <a href="https://x.com/SuhailA10733262" target='_blank' style={{marginRight:"20px"}}>
                             <img src={TwitterIcon} alt="TwitterIcon" className='home-link-icon-btn' />
                         </a>

@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
 
         <div className="nav-container" >
-            <h1 style={{ color: "#00ff2f", fontSize: "40px" }}>
+            <h1 style={{ color: "#00ff2f", fontSize: "40px" ,marginLeft:"10px"}}>
                 S<span style={{ color: "white", fontSize: "30px" }}>uhail</span>
             </h1>
             <div className="nav-for-ham">

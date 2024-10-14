@@ -41,7 +41,7 @@ function Skills() {
           <img src={html} alt="HTML-img" style={{}} />
           <div className='skill-name'>
             <h3>HTML</h3>
-            <p>Developed many pages</p>
+            <p className='para'>Developed many pages</p>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ function Skills() {
           <img src={css} alt="CSS-img" />
           <div className='skill-name'>
             <h3>CSS</h3>
-            <p>Styling many pages</p>
+            <p className='para'>Styling many pages</p>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ function Skills() {
           <img src={bootstrap} alt="Bootstrap-img" />
           <div className='skill-name'>
             <h3>Bootstrap</h3>
-            <p>Styling many pages......</p>
+            <p className='para'>Styling many pages......</p>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ function Skills() {
           <img src={javascript} alt="JavaScript-img" />
           <div className='skill-name'>
             <h3>JavaScript</h3>
-            <p>Developed more than five projects</p>
+            <p className='para'>Developed more than five projects</p>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ function Skills() {
           <img src={react} alt="React-img" id='react-img' />
           <div className='skill-name'>
             <h3>React</h3>
-            <p>Developed more than five projects</p>
+            <p className='para'>Developed more than five projects</p>
           </div>
         </div>
 
@@ -81,7 +81,7 @@ function Skills() {
           <img src={nodejs} alt="Node-img" />
           <div className='skill-name'>
             <h3>Node.js</h3>
-            <p>Created Full Stack Online-Shopping App</p>
+            <p className='para'>Created Full Stack Online-Shopping App</p>
           </div>
         </div>
 
@@ -89,7 +89,7 @@ function Skills() {
           <img src={expressjs} alt="Express-img" />
           <div className='skill-name'>
             <h3>Express.js</h3>
-            <p>Created Full Stack Online-Shopping App</p>
+            <p className='para'>Created Full Stack Online-Shopping App</p>
           </div>
         </div>
 
@@ -97,7 +97,7 @@ function Skills() {
           <img src={mongodb} alt="Mongodb-img" />
           <div className='skill-name'>
             <h3>Mongodb</h3>
-            <p>Created Full Stack Online-Shopping App</p>
+            <p className='para'>Created Full Stack Online-Shopping App</p>
           </div>
         </div>
 
@@ -105,7 +105,7 @@ function Skills() {
           <img src={git} alt="Git-img" />
           <div className='skill-name'>
             <h3>Git</h3>
-            <p>Basic commands in Git</p>
+            <p className='para'>Basic commands in Git</p>
           </div>
         </div>
 

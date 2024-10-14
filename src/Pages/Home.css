@@ -1,12 +1,15 @@
+/* .main-home-container{
+    
+} */
 .home-container {
     /* border: 2px solid rgb(246, 255, 0); */
-    padding-top: 70px;
-    min-height: 100vh;
-    /* width: 100vw; */
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
+    height: 100vh;
     background: #03052b;
+    padding-top: 70px;
 }
 
 .home-text-container {
@@ -44,49 +47,6 @@
     width: 350px;
     height: 350px;
     border-radius: 50%;
-}
-@media all and (max-width:910px) {
-    .home-text-container {
-        width: 30rem;
-    }
-}
-
-@media all and (max-width:768px) {
-    .home-text-container {
-        width: 20rem;
-    }
-
-    .home-front-text-container .home-hello-heading {
-        font-size: 25px;
-
-    }
-
-    .home-profile-text {
-        word-spacing: 0px;
-        font-size: 25px;
-        letter-spacing: 2px;
-    }
-
-    .home-name-text {
-        font-size: 50px;
-        font-weight: bold;
-    }
-
-    .home-font-img {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-@media all and (max-width:600px) {
-    .home-container {
-        flex-wrap: wrap-reverse;
-        padding-top: 100px;
-    }
-
-    .home-text-container {
-        width: 30rem;
-    }
 }
 
 .home-resume-btn {
@@ -135,6 +95,79 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(248, 249, 248);
     transition: all .5s ease-in-out;
+}
+@media all and (max-width:910px) {
+    .home-text-container {
+        width: 30rem;
+    }
+}
+
+@media all and (max-width:768px) {
+    .home-text-container {
+        width: 20rem;
+    }
+
+    .home-front-text-container .home-hello-heading {
+        font-size: 25px;
+
+    }
+
+    .home-profile-text {
+        word-spacing: 0px;
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+    .home-name-text {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .home-font-img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media all and (max-width:600px) {
+    .home-container {
+        flex-wrap: wrap-reverse;
+        padding-top: 100px;
+    }
+    .home-text-container {
+        width: 30rem;
+    }
+    .home-front-text-container .home-hello-heading {
+       text-align: center;
+       font-size: 15px;
+       margin-top: 10px;
+    }
+    .home-name-text {
+        text-align: center;
+    }
+    .home-profile-text {
+        font-size: 25px;
+        letter-spacing: 1px;
+        text-align: center;
+        font-weight: 400;
+        text-shadow: 1px 1px 2px rgb(0, 252, 71);
+    }
+    .home-profile-description {
+        text-align: center;
+        font-size: 15px;
+    }
+    .home-profile-description .home-para {
+        font-size: 15px;
+    }
+    .home-btns-div {
+        display: flex;
+        justify-content: center;
+    }
+    .home-link-icon-btn-container {
+       display: flex;
+       justify-content: center;
+    }
+
 }
 @media all and (max-width:320px) {
     .home-btns-div {

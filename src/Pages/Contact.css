@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 
@@ -67,13 +67,13 @@
 }
 @media all and (max-width:620px) {
     .contact-inp {
-        width: 280px;
+        width: 350px;
     }
 }
 @media all and (max-width:600px) {
     .contact-form-with-img {
         flex-wrap: wrap;
-        height: 85vh;
+        /* height: 85vh; */
     }
     .contact-main-heading {
         padding-top: 100px;
@@ -84,18 +84,18 @@
         
     }
     .contact-inp {
-        width: 390px;
+        width: 400px;
     }
     
 }
 @media all and (max-width:420px) {
     .contact-form-with-img img {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 200px;
         
     }
     .contact-inp {
-        width: 195px;
+        width: 250px;
     }
     
 }
