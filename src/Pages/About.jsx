@@ -19,10 +19,10 @@ function About() {
       <div className='about-container' style={{
         width: "100%", display: "flex", flexDirection: "column", alignItems: "center"
       }}>
-        <h3 style={{ paddingTop: "70px", fontSize: "20px" }}>Hello, I am</h3>
+        <h3 className='about-hello' style={{ paddingTop: "70px", fontSize: "20px" }}>Hello, I am</h3>
         <h1 className='about-name fs-1 fw-bold' ><span>S</span>uhail</h1>
-        <p className='fs-3 f'>web developer</p>
-        <p className='about-para' style={{ width: "80%", }}>
+        <p className='about-course-para fs-3 f'>web developer</p>
+        <p className='about-para' >
           I believe that web development is about more than just making things look pretty.
           It's about solving problems and making intuitive, enjoyable Experience for users.
           Every website should be built with two primary goals. fistly,

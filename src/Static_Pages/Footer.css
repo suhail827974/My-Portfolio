@@ -36,6 +36,7 @@
 
 .footer-text .footer-h {
     font-size: 80px;
+    margin:0;
 }
 
 .footer-text .footer-p {
@@ -46,10 +47,12 @@
 .footer-link-text{
     margin:0;
     color:white;
+    font-size: 22px;
 }
 .footer-link-text:hover{
         color:rgb(0, 255, 60);
 }
+
 @media all and (max-width:650px) {
     .footer-text .footer-h {
         font-size: 60px;
@@ -64,10 +67,18 @@
     .footer-container {
        flex-wrap: wrap;
     }
+    .footer-text .footer-h {
+        margin:0;
+    }
+    .footer-text .footer-p {
+        font-size: 17px;
+        text-align: center;
+    }
+    .footer-link-text{
+        font-size: 18px;
+    }
 }
-.footer-link-text{
-    font-size: 22px;
-}
+
 @media all and (max-width:325px) {
     .footer-mail-link img {
         margin-right: 10px;
